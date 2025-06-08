@@ -38,27 +38,28 @@ fetch("makanan.json")
     container.style.height = `${100 * totalItems}vh`;
 
     items.forEach((item) => {
-      item.style.height = `${100}vh`;
+        item.style.height = `${100}vh`;
     });
 
     document.querySelector(".carousel-btn.down").addEventListener("click", () => {
-      if (currentIndex < totalItems - 1) {
+    if (currentIndex < totalItems - 1) {
         currentIndex++;
         updateCarousel();
-      }
+    }
     });
 
     document.querySelector(".carousel-btn.up").addEventListener("click", () => {
-      if (currentIndex > 0) {
+    if (currentIndex > 0) {
         currentIndex--;
         updateCarousel();
-      }
+    }
     });
 
     function updateCarousel() {
-      container.style.transform = `translateY(-${100 * currentIndex}vh)`;
+        track.style.transform = `translateY(-${100 * currentIndex}vh)`;
     }
-  })
-  .catch((err) => {
+
+    })
+    .catch((err) => {
     console.error("Error fetching data:", err);
-  });
+    });
