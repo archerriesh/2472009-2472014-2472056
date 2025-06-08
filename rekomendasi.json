@@ -1,0 +1,156 @@
+[
+  {
+    "pics": "/img/bunur.jpg",
+    "nama": "Nasi Jamblang dan Empal Gentong Bu Nur",
+    "desc": "Legenda kuliner Cirebon yang selalu ramai pengunjung. Nasi dibungkus daun jati dengan aneka lauk khas — dari sambal goreng sampai cumi hitam — siap memanjakan lidah! Selain kelezatan makanan, suasana tempat yang nyaman dan pelayanan ramah membuat pengunjung betah berlama-lama, menjadikan Bu Nur favorit bagi warga lokal maupun wisatawan.",
+    "locs": "Jl. Cangkring II no. 45, Cirebon 45123 Indonesia",
+    "contact": "0851-0178-5888",
+    "opr": "07.00-20.30",
+    "rating": {
+      "score": 5,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/3myR4gUXbBkp71XM8",
+    "picm":"/img/maps bu nur.png"
+  },
+  {
+    "pics": "/img/lawanggada.webp",
+    "nama": "Susu Murni Lawang Gada",
+    "desc": "Minuman hangat dan segar di satu tempat. Susu murni segar disajikan dengan pilihan rasa tradisional dan kekinian. Cocok untuk melepas dahaga atau sekadar nongkrong santai malam hari. Tempat ini menjadi favorit untuk melepas dahaga atau sekadar nongkrong malam hari dengan teman-teman. Susu murni yang kaya gizi dan proses penyajian higienis menjadikan Lawang Gada perpaduan sempurna antara kenikmatan dan kesehatan.",
+    "locs": "Jl. Lawanggada No.51, Pulasaren, Kec. Pekalipan, Kota Cirebon, Jawa Barat 45117",
+    "contact": "0852-3344-2211",
+    "opr": "16.00-23.00",
+    "rating": {
+      "score": 4,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/1AMtqiGoUPfYmFkb9",
+    "picm":"/img/sumur.png"
+  },
+  {
+    "pics": "/img/mangkapi.jpg",
+    "nama": "Bubur Sop Mang Kapi",
+    "desc": "Unik dan menggoda! Bubur Sop Mang Kapi menawarkan perpaduan unik antara bubur gurih dan kuah sop khas yang menghasilkan cita rasa berbeda dan menggugah selera. Tekstur bubur yang lembut berpadu dengan kuah rempah yang kaya, menghadirkan kenangan hangat masa kecil dalam setiap suapan. Tempat ini ideal untuk sarapan atau makan malam yang menghangatkan badan.",
+    "locs": "Jl. Tentara Pelajar No.56, Kejaksan, Kec. Kejaksan, Kota Cirebon, Jawa Barat 45123",
+    "contact": "0813-7721-1144",
+    "opr": "06.00-10.30",
+    "rating": {
+      "score": 4,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/rWivsPUWZuTiWN4C9",
+    "picm":"/img/bubur.png"
+  },
+  {
+    "pics": "/img/rubican.jpg",
+    "nama": "Roti Ruby",
+    "desc": "Roti legendaris dengan cita rasa nostalgia. Teksturnya lembut, aromanya menggoda, dan rasa manis gurihnya bikin sulit berhenti di satu gigitan saja! Roti Ruby selalu menjadi pilihan favorit untuk camilan atau oleh-oleh khas Cirebon.",
+    "locs": "Jl. Tentara Pelajar No.63, Pekiringan, Kec. Kesambi, Kota Cirebon, Jawa Barat 45131",
+    "contact": "0899-8877-6655",
+    "opr": "08.00-18.00",
+    "rating": {
+      "score": 4,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/B31HSCiamzeEGbNv8",
+    "picm":"/img/nanigasuki.png"
+  },
+  {
+    "pics": "/img/panjunan.jpg",
+    "nama": "Mie Koclok Bata Merah",
+    "desc": "Khas Cirebon banget! Kuah kental santan, suwiran ayam, dan mie yang kenyal berpadu dalam semangkuk kenikmatan yang bikin ingin tambah terus. Menu ini cocok disantap kapan saja untuk pengalaman rasa autentik Cirebon.",
+    "locs": "Jl. Pekarungan No.100, Panjunan, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45112",
+    "contact": "0821-1122-3344",
+    "opr": "11.00-21.00",
+    "rating": {
+      "score": 5,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/EcYYTmFBN5Qmwpue6",
+    "picm":"/img/mkp.png"
+  },
+  {
+    "pics": "/img/sinta.jpg",
+    "nama": "Manisan Sinta",
+    "desc": "Manisan buah tradisional dengan warna-warni menggoda. Asam-manis segarnya cocok untuk oleh-oleh atau camilan sore sambil ngopi.",
+    "locs": "Jl. Lemahwungkuk No.37, Lemahwungkuk, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45111",
+    "contact": "0856-9988-7766",
+    "opr": "08.00-17.00",
+    "rating": {
+      "score": 3,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/3A2xsJuG6RqS7EFp9",
+    "picm":"/img/sinta.png"
+  },
+  {
+    "pics": "/img/thg.jpg",
+    "nama": "Tahu Gejrot Kanoman",
+    "desc": "Tahu kopong dengan kuah pedas-manis-asam yang nendang! Disajikan langsung di atas cobek, tahu gejrot ini jadi favorit para pencinta jajanan legendaris.",
+    "locs": "Jl. Lemahwungkuk No.37, Lemahwungkuk, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45111",
+    "contact": "0877-6655-2211",
+    "opr": "09.00-18.30",
+    "rating": {
+      "score": 4,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/aWyeaU4GA6rbgrzTA",
+    "picm":"/img/tgejrot.png"
+  },
+  {
+    "pics": "/img/empal.jpg",
+    "nama": "Empal Gentong Haji Apud",
+    "desc": "Empal gentong terenak se-Cirebon! Daging empuk dan kuah santan rempah yang gurih jadi kombinasi sempurna dalam setiap suapan.",
+    "locs": "Jl. Raya Kedawung No.24, Battembat, Kec. Tengah Tani, Kabupaten Cirebon, Jawa Barat 45153",
+    "contact": "0822-1444-5566",
+    "opr": "08.00-21.00",
+    "rating": {
+      "score": 5,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/oqcULgVZTJ2eQRHP7",
+    "picm":"/img/si apud.png"
+  },
+  {
+    "pics": "/img/kodok.jpg",
+    "nama": "Swike Jatiwangi",
+    "desc": "Bagi pecinta kuliner ekstrem, swike khas Jatiwangi wajib dicoba. Kuah kental berbumbu khas bikin daging kodok terasa lembut dan kaya rasa.",
+    "locs": "Jl. Petratean No.58, Pekalipan, Kec. Pekalipan, Kota Cirebon, Jawa Barat 45117",
+    "contact": "0882-2233-8899",
+    "opr": "17.00-22.00",
+    "rating": {
+      "score": 3,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/cDPjZHQAkrpDSfkZ6",
+    "picm":"/img/swike.png"
+  },
+  {
+    "pics": "/img/nasjam.jpg",
+    "nama": "Nasi Jamblang Pelabuhan",
+    "desc": "Spot legendaris dekat pelabuhan dengan suasana khas Cirebon tempo dulu. Menunya sederhana tapi rasanya luar biasa — makin nikmat disantap di tengah hiruk-pikuk kota pelabuhan.",
+    "locs": "Jl. Yos Sudarso No.1, Panjunan, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45111",
+    "contact": "0812-3456-7890",
+    "opr": "06.00-15.00",
+    "rating": {
+      "score": 4,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/woSwwiVuY62tjLBU9",
+    "picm":"/img/jamblangp.png"
+  },
+  {
+    "pics": "/img/pagongan.jpg",
+    "nama": "Sate Kambing dan Nasi Lengko Pagongan",
+    "desc": "Potongan daging kambing empuk dibakar dengan bumbu rempah spesial. Disajikan dengan lontong dan sambal kecap, sate ini cocok untuk pencinta kuliner beraroma kuat.",
+    "locs": "Depan Pos Damkar, Jl. Pramuka, Kalijaga, Kec. Harjamukti, Kota Cirebon, Jawa Barat 45144",
+    "contact": "0857-3344-2288",
+    "opr": "10.00-22.00",
+    "rating": {
+      "score": 5,
+      "icon": "<i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i>"
+    },
+    "maps": "https://maps.app.goo.gl/cMSaqKLSkh2r4UWK6",
+    "picm":"/img/lengkop.png"
+  }
+]
