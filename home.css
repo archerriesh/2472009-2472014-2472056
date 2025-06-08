@@ -1,0 +1,58 @@
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+.about {
+    background-color: #fbdfa2;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #452216;
+    max-width: 900px;
+}
+footer {
+    background-color: #783719;
+    color: white;
+    padding: 40px 0;
+}
+footer h4, footer h5 {
+    color: #f1e3d3;
+}
+.btn-warning {
+    background-color: #f8edd6;
+    border: none;
+}
+
+.navbar-brand{
+color: #AB2A02;
+font-family: "DM Serif Display", serif;
+font-style: italic;
+}
+
+.navbar{
+padding: 20px;
+border-radius: 5px;
+}
+
+.hover-feature {
+transition: all 0.3s ease;
+transform: translateY(0);
+}
+.hover-feature:hover {
+transform: translateY(-10px);
+background-color: #fff0c2;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}
