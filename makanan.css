@@ -1,21 +1,29 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  height: 100%;
+}
+
 .carousel-wrapper {
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
+  height: 100vh;        
+  overflow: hidden;     
+  position: relative; 
+  width: 100vw;        
 }
 
 .carousel-track {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
-  transition: transform 0.5s ease-in-out;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
+
 .isi {
-  height: 100vh;
+  height: 100vh;    
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -36,6 +44,20 @@
   padding: 40px;
   border-radius: 15px;
   border: solid 3px #452216;
+}
+
+.kontrol-gambar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.kontrol-gambar .carousel-btn {
+  position: static;
+  transform: none;
+  margin: 0.5rem 0;
+  z-index: auto;
 }
 
 .gambar img {
@@ -66,9 +88,26 @@
 }
 
 .review {
-  padding: 1rem;
+  padding: 0;
   border-radius: 6px;
   margin: 0;
+}
+
+.reviews{
+  margin: 0;
+}
+
+.review-bubble {
+  background-color: #fff;
+  color: #452216;
+  padding: 5px 10px;
+  margin-bottom: 0.75rem;
+  border-radius: 20px;
+  border: 2px solid #452216;
+  width: max-content;
+  position: relative;
+  font-style: italic;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 .kata-orang{
@@ -82,4 +121,25 @@
 .deskripsi{
   max-width: 800px;
   word-wrap: break-word;
+}
+
+.carousel-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #452216;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-btn.up {
+  top: 20px;
+}
+
+.carousel-btn.down {
+  bottom: 20px;
 }

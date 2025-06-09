@@ -8,8 +8,12 @@ fetch("makanan.json")
       htmlContent += `
         <div class="isi">
             <div class="dalem">
-                <div class="gambar">
+                <div class="kontrol-gambar">
+                    <button class="carousel-btn up"><i class="fas fa-chevron-up"></i></button>
+                    <div class="gambar">
                     <img src="${item.pic}" alt="${item.nama}" />
+                    </div>
+                    <button class="carousel-btn down"><i class="fas fa-chevron-down"></i></button>
                 </div>
                 <div class="konten-teks">
                     <div class="keterangan">
@@ -21,7 +25,13 @@ fetch("makanan.json")
                     </div>
                     <h4 class="kata-orang">Kata orang sih... ${item.nama} tuh,</h4>
                     <div class="review">
-                        <div class="reviews">${item.review}</div>
+                    <div class="reviews">
+                        ${item.review.map(r => `
+                        <div class="review-bubble">
+                            <em>${r}</em>
+                        </div>
+                        `).join("")}
+                    </div>
                     </div>
                 </div>
             </div>
@@ -31,35 +41,45 @@ fetch("makanan.json")
 
     container.innerHTML = htmlContent;
 
-    let currentIndex = 0;
     const items = container.querySelectorAll(".isi");
     const totalItems = items.length;
+    let currentIndex = 0;
 
-    container.style.height = `${100 * totalItems}vh`;
+    container.style.height = `${100 * totalItems}vh`;  
 
     items.forEach((item) => {
-        item.style.height = `${100}vh`;
+      item.style.height = `100vh`;
     });
 
-    document.querySelector(".carousel-btn.down").addEventListener("click", () => {
-    if (currentIndex < totalItems - 1) {
-        currentIndex++;
-        updateCarousel();
-    }
+    // Tangkap semua tombol up dan down
+    const btnUps = container.querySelectorAll(".carousel-btn.up");
+    const btnDowns = container.querySelectorAll(".carousel-btn.down");
+
+    btnUps.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateCarousel();
+        }
+      });
     });
 
-    document.querySelector(".carousel-btn.up").addEventListener("click", () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        updateCarousel();
-    }
+    btnDowns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (currentIndex < totalItems - 1) {
+          currentIndex++;
+          updateCarousel();
+        }
+      });
     });
 
     function updateCarousel() {
-        track.style.transform = `translateY(-${100 * currentIndex}vh)`;
+      container.style.transform = `translateY(-${100 * currentIndex}vh)`;
     }
 
-    })
-    .catch((err) => {
+    updateCarousel(); // tampilkan awal posisi 0
+
+  })
+  .catch((err) => {
     console.error("Error fetching data:", err);
-    });
+  });
