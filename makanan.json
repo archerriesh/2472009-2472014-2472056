@@ -1,17 +1,17 @@
 [
     {
-        "pic":"img/empal.jpeg",
+        "pic":["img/empal.jpeg","img/empal1.jpeg","img/empal2.jpeg"],
         "nama": "Empal Gentong",
         "punch":"Rempahnya nempel di hati, bukan cuma di lidah!",
         "deskripsi": "Empal Gentong bukan sekadar hidangan, tapi warisan rasa dari tanah Cirebon yang dimasak dengan penuh kesabaran. Disajikan dalam gentong tanah liat yang khas, aroma rempah langsung menyeruak sejak pertama kali dihidangkan. Kuah santannya kental dan gurih, membungkus potongan daging dan jeroan sapi yang begitu empuk. Setiap sendokannya menyampaikan cerita tentang tradisi, kehangatan keluarga, dan cinta yang dimasak perlahan. Cocok disantap saat cuaca mendung atau ketika butuh pelukan dari semangkuk makanan.",
         "bahan_utama": [
-            "Daging sapi",
-            "Usus sapi",
-            "Santan",
-            "Bawang putih",
-            "Kunyit",
-            "Kemiri",
-            "Ketumbar"
+            "daging sapi",
+            "usus sapi",
+            "santan",
+            "bawang putih",
+            "kunyit",
+            "kemiri",
+            "ketumbar"
         ],
         "range_harga": "Rp 18.000 – Rp 35.000",
         "review": [
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "pic":"img/jamblang.jpeg",
+        "pic":["img/jamblang.jpeg","img/jamblang1.jpeg","img/jamblang2.jpeg"],
         "nama": "Nasi Jamblang",
         "punch":"Makan bebas pilih, dibungkus rasa nostalgia!",
         "deskripsi": "Nasi Jamblang adalah surga prasmanan khas Cirebon yang dibungkus dengan daun jati. Aromanya unik, terasa alami, dan bikin nafsu makan meningkat. Yang bikin istimewa, kamu bisa pilih lauk sesukamu—mulai dari tempe goreng, sambal goreng ati, telur pindang, sampai sate kentang mini. Konsepnya sederhana, tapi penuh kenangan. Makan nasi jamblang itu seperti mengunjungi rumah nenek di kampung—hangat, bebas, dan menyenangkan.",
@@ -42,12 +42,12 @@
         ]
     },
     {
-        "pic":"img/lengko.jpeg",
+        "pic":["img/lengko.jpeg","img/lengko1.jpeg","img/lengko2.jpeg"],
         "nama": "Nasi Lengko",
         "punch":"Simpel, sehat, tapi bikin jatuh cinta.",
         "deskripsi": "Buat kamu yang lagi cari makanan sehat tapi tetap bikin kenyang dan puas, Nasi Lengko jawabannya. Nasi putih hangat disajikan dengan potongan tahu dan tempe goreng, taburan tauge segar, irisan timun, dan siraman saus kacang yang lembut tapi kaya rasa. Ditambah sedikit daun kucai biar makin segar. Rasanya tenang, sederhana, tapi ninggalin kesan dalam. Makanan yang nggak neko-neko, cocok buat kamu yang suka kejujuran dalam rasa.",
         "bahan_utama": [
-            "Nasi putih",
+            "Nasi putih", 
             "Tahu",
             "Tempe goreng",
             "Tauge",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "pic":"img/gejrot.jpeg",
+        "pic":["img/gejrot.jpeg","img/gejrot1.jpeg","img/gejrot2.jpeg"],
         "nama": "Tahu Gejrot",
         "punch":"Sekali gejrot, langsung nendang!",
         "deskripsi": "Tahu Gejrot itu kecil-kecil cabe rawit! Tahu pong yang digoreng kering dipotong-potong, lalu disiram kuah asam-manis-pedas dari campuran gula merah, asam jawa, dan ulekan bawang serta cabai. Rasanya ngejleb di lidah! Cocok jadi teman ngemil sore hari sambil ngobrol santai. Sekali suap, kamu akan ngerti kenapa camilan sederhana ini bisa bikin nagih berkali-kali.",
@@ -83,7 +83,7 @@
         ]
     },
     {   
-        "pic":"img/miekoclok.jpeg",
+        "pic":["img/miekoclok.jpeg","img/koclok1.jpeg","img/koclok2.jpeg"],
         "nama": "Mie Koclok",
         "punch":"Creamy-nya nyentuh, mie-nya meluk!",
         "deskripsi": "Mie Koclok adalah comfort food dari Cirebon yang jarang kamu temuin di tempat lain. Kuahnya kental dan creamy dari santan dan tepung maizena, penuh rasa tapi tetap ringan. Disajikan dengan mie kuning lembut, suwiran ayam, kol yang renyah, dan telur rebus yang bikin makin mantap. Cocok banget buat kamu yang kangen pelukan dari makanan di hari-hari sibuk. Sekali coba, kamu akan sadar kalau mie bisa punya sisi lembut yang lain.",
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "pic":"img/toprak.jpeg",
+        "pic":["img/toprak.jpeg","img/toprak1.jpeg","img/toprak2.jpeg"],
         "nama": "Ketoprak",
         "punch":"Gado-gado tapi bukan—lebih greget, lebih hangat!",
         "deskripsi": "Meski berasal dari Jakarta, Ketoprak udah jadi makanan sejuta umat yang gampang ditemukan di Cirebon. Paduan lontong, tahu goreng, bihun, tauge segar, dan guyuran saus kacang yang legit itu nggak pernah gagal bikin kenyang dan bahagia. Disajikan dadakan, langsung diulek di piring. Ada sensasi crunchy dari bawang goreng, gurih dari kacang, dan pedas sesuai selera. Ketoprak itu bukti bahwa sederhana bisa sangat memuaskan.",
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "pic":"img/langgi.jpeg",
+        "pic":["img/langgi.jpeg","/img/langgi1.jpeg","img/langgi2.jpeg"],
         "nama": "Nasi Langgi",
         "punch":"Rasa rumahan yang tetap berkelas.",
         "deskripsi": "Nasi Langgi itu elegansi dalam balutan nasi. Disajikan dengan berbagai lauk rumahan seperti abon sapi, serundeng wangi, telur dadar iris, kering kentang, dan sambal goreng yang mantap. Ini adalah makanan yang nggak ribet tapi punya komposisi kaya rasa dan tekstur. Rasanya akrab di lidah, tapi tetap punya aura mewah yang bikin kamu merasa dimanjakan. Cocok buat makan siang yang tenang dan penuh rasa syukur.",

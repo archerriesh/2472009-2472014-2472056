@@ -22,19 +22,25 @@
   justify-content: center;
   padding: 2rem;
   box-sizing: border-box;
+  background-color: #F8EDD6;
 }
 
 .dalem {
   display: flex;
-  flex-direction: row-reverse; /* gambar di kanan */
+  flex-direction: row-reverse; 
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  background-color: #FBDFA2;
+  color: #452216;
+  padding: 40px;
+  border-radius: 15px;
+  border: solid 3px #452216;
 }
 
 .gambar img {
-  max-width: 100%;
-  max-height: 80vh;
+  max-width: 250px;
+  max-height: 200px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -60,9 +66,20 @@
 }
 
 .review {
-  flex: none;
-  background: #f9f9f9;
   padding: 1rem;
-  border-left: 4px solid #ccc;
   border-radius: 6px;
+  margin: 0;
+}
+
+.kata-orang{
+  margin: 0;
+}
+
+.punch{
+  margin: 0;
+}
+
+.deskripsi{
+  max-width: 800px;
+  word-wrap: break-word;
 }

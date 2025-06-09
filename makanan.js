@@ -7,7 +7,6 @@ fetch("makanan.json")
     reks.forEach((item) => {
       htmlContent += `
         <div class="isi">
-            <h3>${item.punch}</h3>
             <div class="dalem">
                 <div class="gambar">
                     <img src="${item.pic}" alt="${item.nama}" />
@@ -15,13 +14,14 @@ fetch("makanan.json")
                 <div class="konten-teks">
                     <div class="keterangan">
                     <h2 class="judul">${item.nama}</h2>
+                    <h4 class="punch">${item.punch}</h4>
                     <p class="deskripsi">${item.deskripsi}</p>
                     <p class="bahan">${item.nama} dimasak sepenuh hati dengan ${item.bahan_utama}.</p>
                     <p class="harga">Umumnya, ${item.nama} bisa didapat di kisaran ${item.range_harga}!</p>
                     </div>
+                    <h4 class="kata-orang">Kata orang sih... ${item.nama} tuh,</h4>
                     <div class="review">
-                    <h4>Kata orang sih... ${item.nama} tuh,</h4>
-                    <p class="reviews">${item.review}</p>
+                        <div class="reviews">${item.review}</div>
                     </div>
                 </div>
             </div>
