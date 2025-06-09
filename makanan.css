@@ -1,0 +1,85 @@
+.carousel-wrapper {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.isi {
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #F8EDD6;
+}
+
+.dalem {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: #FBDFA2;
+  color: #452216;
+  padding: 40px;
+  border-radius: 15px;
+  border: solid 3px #452216;
+}
+
+.gambar img {
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.keterangan, .review {
+  flex: 1;
+}
+
+.judul {
+  margin: 0.5rem 0;
+}
+
+.konten-teks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.keterangan {
+  flex: none;
+}
+
+.review {
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.kata-orang{
+  margin: 0;
+}
+
+.punch{
+  margin: 0;
+}
+
+.deskripsi{
+  max-width: 800px;
+  word-wrap: break-word;
+}
