@@ -23,7 +23,7 @@ html, body{
 
 
 .isi {
-  height: 100vh;    
+  height: max-content;    
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -61,8 +61,8 @@ html, body{
 }
 
 .gambar img {
-  max-width: 250px;
-  max-height: 200px;
+  max-width: 400px;
+  max-height: 380px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -72,7 +72,18 @@ html, body{
 }
 
 .judul {
-  margin: 0.5rem 0;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.judul::before {
+  content: "🍲";
+  font-size: 1.5rem;
 }
 
 .konten-teks {
@@ -98,24 +109,40 @@ html, body{
 }
 
 .review-bubble {
-  background-color: #fff;
-  color: #452216;
-  padding: 5px 10px;
-  margin-bottom: 0.75rem;
-  border-radius: 20px;
+  background-color: #fff8e1;
   border: 2px solid #452216;
-  width: max-content;
-  position: relative;
+  color: #452216;
+  font-family: 'Patrick Hand', cursive;
   font-style: italic;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  position: relative;
+  width: fit-content;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+  animation: popIn 0.4s ease forwards;
+}
+
+.review-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff8e1 transparent transparent transparent;
 }
 
 .kata-orang{
   margin: 0;
 }
 
-.punch{
-  margin: 0;
+.punch {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #703a1b;
+  margin-bottom: 1rem;
 }
 
 .deskripsi{
@@ -142,4 +169,24 @@ html, body{
 
 .carousel-btn.down {
   bottom: 20px;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.gambar img {
+  transition: transform 0.3s ease;
+}
+
+.gambar img:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.bahan,
+.harga {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #5c3315;
 }
