@@ -121,7 +121,6 @@ h4{
     -webkit-box-orient: vertical;
 }
 
-
 .rating{
     color: #766f64;
 }
@@ -136,8 +135,35 @@ h4{
     color: #783719;
 }
 
+.tuombol {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
 a{
     text-decoration: none;
+}
+
+.p-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  width: 350px;
+  min-height: 150px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  color: #452216;
+}
+
+.p-3:hover {
+  transform: translateY(-5px);
 }
 
 @media (min-width: 600px) {
