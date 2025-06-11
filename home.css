@@ -135,6 +135,11 @@ h4{
     color: #783719;
 }
 
+.bon{
+    margin: 20px 100px;
+    padding: 0 20px;
+}
+
 .tuombol {
   display: flex;
   justify-content: center;

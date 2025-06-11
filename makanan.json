@@ -26,13 +26,13 @@
         "punch":"Makan bebas pilih, dibungkus rasa nostalgia!",
         "deskripsi": "Nasi Jamblang adalah surga prasmanan khas Cirebon yang dibungkus dengan daun jati. Aromanya unik, terasa alami, dan bikin nafsu makan meningkat. Yang bikin istimewa, kamu bisa pilih lauk sesukamu—mulai dari tempe goreng, sambal goreng ati, telur pindang, sampai sate kentang mini. Konsepnya sederhana, tapi penuh kenangan. Makan nasi jamblang itu seperti mengunjungi rumah nenek di kampung—hangat, bebas, dan menyenangkan.",
         "bahan_utama": [
-            "Nasi putih",
-            "Daun jati",
-            "Sambal goreng",
-            "Tempe",
-            "Tahu",
-            "Telur pindang",
-            "Sate kentang"
+            "nasi putih",
+            "daun jati",
+            "sambal goreng",
+            "tempe",
+            "tahu",
+            "telur pindang",
+            "sate kentang"
         ],
         "range_harga": "Rp 10.000 – Rp 25.000",
         "review": [
@@ -47,13 +47,13 @@
         "punch":"Simpel, sehat, tapi bikin jatuh cinta.",
         "deskripsi": "Buat kamu yang lagi cari makanan sehat tapi tetap bikin kenyang dan puas, Nasi Lengko jawabannya. Nasi putih hangat disajikan dengan potongan tahu dan tempe goreng, taburan tauge segar, irisan timun, dan siraman saus kacang yang lembut tapi kaya rasa. Ditambah sedikit daun kucai biar makin segar. Rasanya tenang, sederhana, tapi ninggalin kesan dalam. Makanan yang nggak neko-neko, cocok buat kamu yang suka kejujuran dalam rasa.",
         "bahan_utama": [
-            "Nasi putih", 
-            "Tahu",
-            "Tempe goreng",
-            "Tauge",
-            "Timun",
-            "Daun kucai",
-            "Bumbu kacang"
+            "nasi putih", 
+            "tahu",
+            "tempe goreng",
+            "tauge",
+            "timun",
+            "daun kucai",
+            "bumbu kacang"
         ],
         "range_harga": "Rp 8.000 – Rp 15.000",
         "review": [
@@ -68,12 +68,11 @@
         "punch":"Sekali gejrot, langsung nendang!",
         "deskripsi": "Tahu Gejrot itu kecil-kecil cabe rawit! Tahu pong yang digoreng kering dipotong-potong, lalu disiram kuah asam-manis-pedas dari campuran gula merah, asam jawa, dan ulekan bawang serta cabai. Rasanya ngejleb di lidah! Cocok jadi teman ngemil sore hari sambil ngobrol santai. Sekali suap, kamu akan ngerti kenapa camilan sederhana ini bisa bikin nagih berkali-kali.",
         "bahan_utama": [
-            "Tahu pong",
-            "Bawang merah",
-            "Bawang putih",
-            "Cabai rawit",
-            "Gula merah",
-            "Asam jawa"
+            "tahu pong",
+            "bawang merah",
+            "cabai rawit",
+            "gula merah",
+            "asam jawa"
         ],
         "range_harga": "Rp 5.000 – Rp 12.000",
         "review": [
@@ -88,13 +87,13 @@
         "punch":"Creamy-nya nyentuh, mie-nya meluk!",
         "deskripsi": "Mie Koclok adalah comfort food dari Cirebon yang jarang kamu temuin di tempat lain. Kuahnya kental dan creamy dari santan dan tepung maizena, penuh rasa tapi tetap ringan. Disajikan dengan mie kuning lembut, suwiran ayam, kol yang renyah, dan telur rebus yang bikin makin mantap. Cocok banget buat kamu yang kangen pelukan dari makanan di hari-hari sibuk. Sekali coba, kamu akan sadar kalau mie bisa punya sisi lembut yang lain.",
         "bahan_utama": [
-            "Mie kuning",
-            "Ayam suwir",
-            "Kol",
-            "Telur rebus",
-            "Santan",
-            "Tepung maizena",
-            "Bawang putih"
+            "mie kuning",
+            "ayam suwir",
+            "kol",
+            "telur rebus",
+            "santan",
+            "tepung maizena",
+            "bawang putih"
         ],
         "range_harga": "Rp 12.000 – Rp 20.000",
         "review": [
@@ -109,12 +108,12 @@
         "punch":"Gado-gado tapi bukan—lebih greget, lebih hangat!",
         "deskripsi": "Meski berasal dari Jakarta, Ketoprak udah jadi makanan sejuta umat yang gampang ditemukan di Cirebon. Paduan lontong, tahu goreng, bihun, tauge segar, dan guyuran saus kacang yang legit itu nggak pernah gagal bikin kenyang dan bahagia. Disajikan dadakan, langsung diulek di piring. Ada sensasi crunchy dari bawang goreng, gurih dari kacang, dan pedas sesuai selera. Ketoprak itu bukti bahwa sederhana bisa sangat memuaskan.",
         "bahan_utama": [
-            "Lontong",
-            "Tahu goreng",
-            "Bihun",
-            "Tauge",
-            "Bawang goreng",
-            "Bumbu kacang"
+            "lontong",
+            "tahu goreng",
+            "bihun",
+            "tauge",
+            "bawang goreng",
+            "bumbu kacang"
         ],
         "range_harga": "Rp 8.000 – Rp 17.000",
         "review": [
@@ -129,12 +128,12 @@
         "punch":"Rasa rumahan yang tetap berkelas.",
         "deskripsi": "Nasi Langgi itu elegansi dalam balutan nasi. Disajikan dengan berbagai lauk rumahan seperti abon sapi, serundeng wangi, telur dadar iris, kering kentang, dan sambal goreng yang mantap. Ini adalah makanan yang nggak ribet tapi punya komposisi kaya rasa dan tekstur. Rasanya akrab di lidah, tapi tetap punya aura mewah yang bikin kamu merasa dimanjakan. Cocok buat makan siang yang tenang dan penuh rasa syukur.",
         "bahan_utama": [
-            "Nasi putih",
-            "Abon",
-            "Serundeng",
-            "Telur dadar iris",
-            "Sambal goreng",
-            "Kering kentang"
+            "nasi putih",
+            "abon",
+            "serundeng",
+            "telur dadar iris",
+            "sambal goreng",
+            "kering kentang"
         ],
         "range_harga": "Rp 10.000 – Rp 25.000",
         "review": [

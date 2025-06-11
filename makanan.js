@@ -38,7 +38,7 @@ fetch("makanan.json")
                     <h2 class="judul">${item.nama}</h2>
                     <h4 class="punch">${item.punch}</h4>
                     <p class="deskripsi">${item.deskripsi}</p>
-                    <p class="bahan">${item.nama} dimasak sepenuh hati dengan ${item.bahan_utama}.</p>
+                    <p class="bahan">${item.nama} dimasak sepenuh hati dengan ${item.bahan_utama.join(", ")}.</p>
                     <p class="harga">Umumnya, ${item.nama} bisa didapat di kisaran ${item.range_harga}!</p>
                     </div>
                     <h4 class="kata-orang">Kata orang sih... ${item.nama} tuh,</h4>
