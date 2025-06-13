@@ -1,20 +1,95 @@
-.carousel-track {
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.5s ease-in-out;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
 }
 
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+.about {
+    background-color: #fbdfa2;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #452216;
+    max-width: 900px;
+}
+footer {
+    background-color: #783719;
+    color: white;
+    padding: 40px 0;
+}
+footer h4, footer h5 {
+    color: #f1e3d3;
+}
+.btn-warning {
+    background-color: #f8edd6;
+    border: none;
+}
+
+.navbar-brand{
+color: #AB2A02;
+font-family: "DM Serif Display", serif;
+font-style: italic;
+}
+
+.navbar{
+padding: 20px;
+border-radius: 5px;
+}
+
+.hover-feature {
+transition: all 0.3s ease;
+transform: translateY(0);
+}
+.hover-feature:hover {
+transform: translateY(-10px);
+background-color: #fff0c2;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}
+
+.carousel-wrapper {
+  height: 100vh;        
+  overflow: hidden;     
+  position: relative; 
+  width: 100vw;        
+}
+
+.carousel-track {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .isi {
+  height: max-content;    
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
-  height: 100vh;
   padding: 2rem;
   box-sizing: border-box;
+  background-color: #F8EDD6;
 }
 
 .dalem {
@@ -23,11 +98,30 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  background-color: #FBDFA2;
+  color: #452216;
+  padding: 40px;
+  border-radius: 15px;
+  border: solid 3px #452216;
+}
+
+.kontrol-gambar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.kontrol-gambar .carousel-btn {
+  position: static;
+  transform: none;
+  margin: 0.5rem 0;
+  z-index: auto;
 }
 
 .gambar img {
-  max-width: 100%;
-  max-height: 80vh;
+  max-width: 400px;
+  max-height: 380px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -37,7 +131,18 @@
 }
 
 .judul {
-  margin: 0.5rem 0;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.judul::before {
+  content: "🍲";
+  font-size: 1.5rem;
 }
 
 .konten-teks {
@@ -53,9 +158,94 @@
 }
 
 .review {
-  flex: none;
-  background: #f9f9f9;
-  padding: 1rem;
-  border-left: 4px solid #ccc;
+  padding: 0;
   border-radius: 6px;
+  margin: 0;
+}
+
+.reviews{
+  margin: 0;
+}
+
+.review-bubble {
+  background-color: #fff8e1;
+  border: 2px solid #452216;
+  color: #452216;
+  font-family: 'Patrick Hand', cursive;
+  font-style: italic;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  position: relative;
+  width: fit-content;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+  animation: popIn 0.4s ease forwards;
+}
+
+.review-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff8e1 transparent transparent transparent;
+}
+
+.kata-orang{
+  margin: 0;
+}
+
+.punch {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #703a1b;
+  margin-bottom: 1rem;
+}
+
+.deskripsi{
+  max-width: 800px;
+  word-wrap: break-word;
+}
+
+.carousel-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #452216;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-btn.up {
+  top: 20px;
+}
+
+.carousel-btn.down {
+  bottom: 20px;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.gambar img {
+  transition: transform 0.3s ease;
+}
+
+.gambar img:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.bahan,
+.harga {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #5c3315;
 }
