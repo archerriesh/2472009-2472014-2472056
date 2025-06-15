@@ -286,7 +286,7 @@ background-color: #fbdfa2;
 
   .carousel-btn.up,
   .carousel-btn.down {
-    position: static;      
+    position: static;     
     transform: none;
   }
 }
