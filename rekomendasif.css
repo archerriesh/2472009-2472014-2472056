@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #fffaf0;
   margin: 0;
@@ -60,18 +64,22 @@ background-color: #fbdfa2;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
     padding: 20px;
     gap: 20px;
     align-items: center;
-    margin: 0;
+    margin-top: 80px;
 }
 
 .reks::-webkit-scrollbar {
     display: none;
+}
+
+.page-recs {
+    margin: 10px 20px;
+    padding: 10px;
 }
 
 .recs{
@@ -94,6 +102,7 @@ background-color: #fbdfa2;
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    overflow: hidden;
 }
 
 .recs img {
@@ -148,7 +157,6 @@ a{
   overflow-x: hidden;
   overflow-y: scroll;
   max-height: 100vh; 
-  scroll-snap-type: y mandatory;
   display: flex;
   align-items: center;
   justify-content: center;
