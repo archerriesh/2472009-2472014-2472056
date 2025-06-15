@@ -305,7 +305,49 @@ h2{
   flex: 1;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width:768px){
+  .carousel-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .carousel-track {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-btn {
+    display: none; 
+  }
+
   .dalem {
     flex-direction: column;
     text-align: center;
@@ -335,16 +377,4 @@ h2{
   .carousel-btn.right {
     top: 60%;
   }
-}
-
-@media (min-width: 600px) {
-    .recs {
-        width: 45%; 
-    }
-}
-
-@media (min-width: 900px) {
-    .recs {
-        width: 30%; 
-    }
 }
