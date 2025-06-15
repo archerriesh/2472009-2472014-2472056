@@ -165,8 +165,9 @@ h4{
 }
 
 .bon{
-    margin: 20px 100px;
+    margin: 80px 100px;
     padding: 0 20px;
+    display: flex;
 }
 
 .bon a{
@@ -176,6 +177,18 @@ h4{
 
 .bon a:hover{
     font-weight: bold;
+}
+
+.bon .isi{
+    display: flex;
+    flex: 1;
+}
+
+.bon img{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+    margin: 0 90px;
 }
 
 .tuombol {
