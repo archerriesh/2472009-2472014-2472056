@@ -139,6 +139,12 @@ a{
     text-decoration: none;
 }
 
+.carousel-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
 .carousel-container {
   position: relative;
   max-width: 900px;
@@ -216,12 +222,12 @@ a{
 }
 
 .carousel-btn.left {
-  left: 150px;
+  left: 50px;
   margin-top: 100px;
 }
 
 .carousel-btn.right {
-  right: 150px;
+  right: 50px;
   margin-top: 100px;
 }
 
@@ -327,9 +333,7 @@ h2{
 
   .carousel-btn.left,
   .carousel-btn.right {
-    top: 95%;
-    left: auto;
-    right: auto;
+    top: 60%;
   }
 }
 

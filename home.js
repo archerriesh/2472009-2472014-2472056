@@ -7,17 +7,6 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
       });
     });
 
-const contactForm = document.querySelector('footer form');
-if (contactForm) {
-  contactForm.addEventListener('submit', e => {
-    e.preventDefault(); 
-    if(confirm('Halo! Sudah siap mengirim pesan?')) {
-      alert("Pesan kamu sudah dikirim! Terima kasih!");
-      contactForm.reset();
-    }
-  });
-};
-
 fetch("rekomendasi.json")
 .then(res => res.json())
 .then((recs) => {

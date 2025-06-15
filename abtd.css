@@ -93,6 +93,7 @@ ul li {
 .belah img {
   max-width: 400px;
   width: 100%;
+  max-height: 300px;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -121,13 +122,6 @@ ul li {
 
 .belah.kiri {
   flex-direction: row;
-}
-
-.belah img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 12px;
 }
 
 .belah.kanan {
@@ -167,17 +161,16 @@ ul li {
 
 
 @media (max-width: 768px) {
-  .section {
+  .belah {
     flex-direction: column !important;
     text-align: center;
   }
 
-  .section .image,
-  .section .text {
+  .belah .isi {
     max-width: 100%;
   }
 
-  .section .image img {
-    height: auto;
+  .belah img {
+    max-width: 100%;
   }
 }
