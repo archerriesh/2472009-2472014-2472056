@@ -15,6 +15,21 @@ footer h4, footer h5 {
     color: #f1e3d3;
 }
 
+footer a {
+  color: inherit;         
+  text-decoration: none;  
+}
+
+footer a:hover {
+  color: #f4a261;         
+  text-decoration: underline; 
+}
+
+footer i {
+  margin-right: 8px;
+  color: #f1e3d3;
+}
+
 .btn-warning {
     background-color: #f8edd6;
     border: none;

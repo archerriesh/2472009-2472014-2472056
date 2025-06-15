@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <title>Rekomendasi Kuliner</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak Dolanan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="minuman.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dolanan">
+    <nav class="navbar navbar-expand-lg navbar-dolanan">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="home.html">Dolanan</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -38,13 +37,45 @@
       </div>
     </div>
   </nav>
-  
-  <div class="carousel-wrapper">
-    <div class="carousel-track"></div>
-  </div>
 
+    <header>
+        <h1>Kontak Dolanan</h1>
+        <p class="lead">Jelajahi rasa, temukan cerita – kirimkan pesanmu ke kami ✉️</p>
+    </header>
 
-  <footer>
+    <section class="contact-section container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4 class="fw-bold mb-3">Kami Senang Dengerin Kamu!</h4>
+                <p>
+                Dolanan selalu terbuka untuk kritik, saran, maupun sekadar pesan dari kamu. 
+                Ceritakan pengalamanmu, beri masukan, atau ajak kami berkolaborasi! 
+                Tim kami akan dengan senang hati membaca setiap pesan yang masuk.
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Siliwangi No. 88, Cirebon, Jawa Barat</p>
+                <p><i class="fab fa-instagram"></i> @yukDolanan</p>
+                <p><i class="fas fa-envelope"></i> info@dolanan.id</p>
+            </div>
+
+            <div class="col-md-6">
+                <h5 class="fw-semibold mb-3">Keep in touch with us ❤️</h5>
+                <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nama Anda" required />
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Anda" required />
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning text-black px-4">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-6 mb-4">
@@ -67,7 +98,8 @@
       </div>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="minuman.js"></script>
+  <script src="contact.js"></script>
 </body>
 </html>
