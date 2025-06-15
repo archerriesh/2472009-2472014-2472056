@@ -372,9 +372,4 @@ h2{
   .gambar img {
     max-width: 90%;
   }
-
-  .carousel-btn.left,
-  .carousel-btn.right {
-    top: 60%;
-  }
 }
