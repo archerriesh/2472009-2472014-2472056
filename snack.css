@@ -33,15 +33,15 @@ footer i {
 }
 
 .navbar-brand{
-  font-weight: bold;
-  font-family: "DM Serif Display", serif;
-  font-style: italic;
-  color: #AB2A02;
+color: #AB2A02;
+font-family: "DM Serif Display", serif;
+font-style: italic;
 }
 
 .navbar{
-  padding: 20px;
-  border-radius: 5px;
+padding: 20px;
+border-radius: 5px;
+background-color: #fbdfa2;
 }
   
   .carousel-container {
