@@ -243,3 +243,50 @@ background-color: #fbdfa2;
   font-size: 0.95rem;
   color: #5c3315;
 }
+
+@media (max-width: 768px) {
+  .dalem {
+    flex-direction: column;  
+    padding: 20px;
+    text-align: center;
+  }
+
+  .gambar img {
+    max-width: 100%;     
+    height: auto;
+  }
+
+  .kontrol-gambar {
+    flex-direction: row;    
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .kontrol-gambar .carousel-btn {
+    margin: 0;
+  }
+
+  .konten-teks {
+    gap: 1rem;
+  }
+
+  .judul {
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+
+  .punch {
+    font-size: 1rem;
+  }
+
+  .deskripsi {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .carousel-btn.up,
+  .carousel-btn.down {
+    position: static;      
+    transform: none;
+  }
+}
