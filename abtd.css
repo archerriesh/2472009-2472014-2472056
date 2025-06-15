@@ -1,0 +1,44 @@
+footer {
+    background-color: #783719;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h4, footer h5 {
+    color: #f1e3d3;
+}
+
+.navbar-brand{
+color: #AB2A02;
+font-family: "DM Serif Display", serif;
+font-style: italic;
+}
+
+.navbar{
+padding: 20px;
+border-radius: 5px;
+background-color: #fbdfa2;
+}
+
+.dolanan,
+.misi,
+.kenapa {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}

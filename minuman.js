@@ -7,14 +7,16 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
       });
     });
 
-    const contactForm = document.querySelector('footer form');
-    contactForm.addEventListener('submit', e => {
-      e.preventDefault(); 
-      if(confirm('Halo!Sudah siap mengirim pesan?')) {
-        alert("pesan kamu sudah dikirim!Terima kasih-!");
-        contactForm.reset();
-      }
-    });
+const contactForm = document.querySelector('footer form');
+if (contactForm) {
+  contactForm.addEventListener('submit', e => {
+    e.preventDefault(); 
+    if(confirm('Halo! Sudah siap mengirim pesan?')) {
+      alert("Pesan kamu sudah dikirim! Terima kasih!");
+      contactForm.reset();
+    }
+  });
+};
 
 fetch("minuman.json")
   .then((res) => res.json())

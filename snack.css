@@ -1,8 +1,33 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #fffaf0;
-    padding: 15px;
-  }
+html, body{
+  overflow-x: hidden;
+}
+
+footer {
+    background-color: #783719;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h4, footer h5 {
+    color: #f1e3d3;
+}
+
+.btn-warning {
+    background-color: #f8edd6;
+    border: none;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  color: #AB2A02;
+}
+
+.navbar{
+  padding: 20px;
+  border-radius: 5px;
+}
   
   .carousel-container {
     position: relative;
