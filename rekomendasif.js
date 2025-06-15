@@ -61,36 +61,4 @@ fetch("rekomendasi.json")
     });
 
     container.innerHTML = htmlContent;
-
-    let currentIndex = 0;
-    const track = container;
-    const items = container.querySelectorAll(".isi");
-    const totalItems = items.length;
-
-    track.style.width = `${100 * totalItems}%`;
-
-    items.forEach((item) => {
-      item.style.width = `${100 / totalItems}%`;
-    });
-
-    document.querySelector(".carousel-btn.right").addEventListener("click", () => {
-      if (currentIndex < totalItems - 1) {
-        currentIndex++;
-        updateCarousel();
-      }
-    });
-
-    document.querySelector(".carousel-btn.left").addEventListener("click", () => {
-      if (currentIndex > 0) {
-        currentIndex--;
-        updateCarousel();
-      }
-    });
-
-    function updateCarousel() {
-      track.style.transform = `translateX(-${(100 / totalItems) * currentIndex}%)`;
-    }
-  })
-  .catch((err) => {
-    console.error("Error fetching data:", err);
   });
