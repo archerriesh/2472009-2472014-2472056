@@ -1,0 +1,113 @@
+footer {
+    background-color: #783719;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h4, footer h5 {
+    color: #f1e3d3;
+}
+
+.btn-warning {
+    background-color: #f8edd6;
+    border: none;
+}
+
+.navbar-brand{
+color: #AB2A02;
+font-family: "DM Serif Display", serif;
+font-style: italic;
+}
+
+.navbar{
+padding: 20px;
+border-radius: 5px;
+}
+
+section.bonbon-page {
+  padding: 3rem 2rem;
+  background-color: #fff2cc;
+}
+
+.kenalin {
+  font-size: 1.1rem;
+  color: #5a3b2e;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.belah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.belah .isi {
+  flex: 1;
+  max-width: 600px;
+}
+
+.belah .kiri{
+    flex-direction: row;
+}
+
+.belah .kanan {
+    flex-direction: row-reverse;
+}
+
+.belah img {
+  width: 100%;
+  max-width: 400px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.belah .isi {
+  flex: 1;
+  max-width: 600px;
+}
+
+.belah .isi h3 {
+  font-size: 1.5rem;
+  color: #AB2A02;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.belah .isi p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #402e2a;
+}
+
+.akuboni {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #783719;
+  margin-bottom: 1rem;
+}
+
+.closing{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .belah {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .belah .isi {
+    max-width: 100%;
+  }
+
+  .belah img {
+    height: auto;
+  }
+}
