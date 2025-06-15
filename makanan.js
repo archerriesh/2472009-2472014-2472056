@@ -30,11 +30,9 @@ fetch("makanan.json")
       <div class="isi">
         <div class="dalem">
           <div class="kontrol-gambar">
-            <button class="carousel-btn up"><i class="fas fa-chevron-up"></i></button>
             <div class="gambar">
               <img src="${item.pic}" alt="${item.nama}" />
             </div>
-            <button class="carousel-btn down"><i class="fas fa-chevron-down"></i></button>
           </div>
           <div class="konten-teks">
             <div class="keterangan">
@@ -61,45 +59,4 @@ fetch("makanan.json")
   }
 
     container.innerHTML = htmlContent;
-
-    const items = container.querySelectorAll(".isi");
-    const totalItems = items.length;
-    let currentIndex = 0;
-
-    container.style.height = `${100 * totalItems}vh`;  
-
-    items.forEach((item) => {
-      item.style.height = `100vh`;
-    });
-
-    const btnUps = container.querySelectorAll(".carousel-btn.up");
-    const btnDowns = container.querySelectorAll(".carousel-btn.down");
-
-    btnUps.forEach(btn => {
-      btn.addEventListener("click", () => {
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
-        }
-      });
-    });
-
-    btnDowns.forEach(btn => {
-      btn.addEventListener("click", () => {
-        if (currentIndex < totalItems - 1) {
-          currentIndex++;
-          updateCarousel();
-        }
-      });
-    });
-
-    function updateCarousel() {
-      container.style.transform = `translateY(-${100 * currentIndex}vh)`;
-    }
-
-    updateCarousel();
-
-  })
-  .catch((err) => {
-    console.error("Error fetching data:", err);
-  });
+});

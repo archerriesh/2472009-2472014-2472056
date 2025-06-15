@@ -50,6 +50,7 @@ background-color: #fbdfa2;
   position: relative; 
   width: 100vw;        
   padding: 2rem 1rem;
+  overflow-y: auto;
 }
 
 .carousel-track {
@@ -83,6 +84,11 @@ background-color: #fbdfa2;
   border-radius: 15px;
   border: solid 3px #452216;
   margin: 3rem;
+}
+
+.reks {
+  display: flex;
+  overflow-x: hidden; 
 }
 
 .kontrol-gambar {
@@ -143,6 +149,7 @@ background-color: #fbdfa2;
   padding: 0;
   border-radius: 6px;
   margin: 0;
+  height: max-content;
 }
 
 .reviews {
@@ -153,6 +160,7 @@ background-color: #fbdfa2;
   gap: 1rem;
   margin: 0;
   padding: 0;
+  height: max-content;
 }
 
 .review-bubble {
@@ -185,27 +193,6 @@ background-color: #fbdfa2;
   line-height: 1.7;
   margin-bottom: 1rem;
   margin-top: 0;
-}
-
-.carousel-btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  background-color: #452216;
-  color: white;
-  border: none;
-  padding: 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.carousel-btn.up {
-  top: 20px;
-}
-
-.carousel-btn.down {
-  bottom: 20px;
 }
 
 @keyframes popIn {

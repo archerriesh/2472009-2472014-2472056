@@ -1,5 +1,6 @@
 html, body{
   overflow-x: hidden;
+  background-color: #F8EDD6;
 }
 
 footer {
@@ -48,6 +49,8 @@ background-color: #fbdfa2;
   overflow: hidden;     
   position: relative; 
   width: 100vw;        
+  padding: 2rem 1rem;
+  overflow-y: auto;
 }
 
 .carousel-track {
@@ -65,9 +68,8 @@ background-color: #fbdfa2;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 3rem 2rem;
   box-sizing: border-box;
-  background-color: #F8EDD6;
 }
 
 .dalem {
@@ -78,9 +80,15 @@ background-color: #fbdfa2;
   gap: 2rem;
   background-color: #FBDFA2;
   color: #452216;
-  padding: 40px;
+  padding: 10px 40px;
   border-radius: 15px;
   border: solid 3px #452216;
+  margin: 3rem;
+}
+
+.reks {
+  display: flex;
+  overflow-x: hidden; 
 }
 
 .kontrol-gambar {
@@ -116,6 +124,7 @@ background-color: #fbdfa2;
   gap: 0.5rem;
   margin: 0;
   padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 .judul::before {
@@ -129,6 +138,7 @@ background-color: #fbdfa2;
   flex-direction: column;
   justify-content: space-between;
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .keterangan {
@@ -139,36 +149,30 @@ background-color: #fbdfa2;
   padding: 0;
   border-radius: 6px;
   margin: 0;
+  height: max-content;
 }
 
-.reviews{
+.reviews {
+  display: flex;
+  flex-direction: column;
+  overflow-x: unset;
+  max-height: 200px; 
+  gap: 1rem;
   margin: 0;
+  padding: 0;
+  height: max-content;
 }
 
 .review-bubble {
   background-color: #fff8e1;
-  border: 2px solid #452216;
-  color: #452216;
-  font-family: 'Patrick Hand', cursive;
+  border: 2px solid #6d4c41;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  width: max-content;
   font-style: italic;
-  font-size: 1rem;
-  padding: 5px 10px;
-  margin: 5px;
-  border-radius: 20px;
-  position: relative;
-  width: fit-content;
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
-  animation: popIn 0.4s ease forwards;
-}
-
-.review-bubble::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 20px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: #fff8e1 transparent transparent transparent;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  white-space: normal;
+  margin: 0;
 }
 
 .kata-orang{
@@ -180,32 +184,15 @@ background-color: #fbdfa2;
   font-size: 1.2rem;
   color: #703a1b;
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 .deskripsi{
   max-width: 800px;
   word-wrap: break-word;
-}
-
-.carousel-btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  background-color: #452216;
-  color: white;
-  border: none;
-  padding: 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.carousel-btn.up {
-  top: 20px;
-}
-
-.carousel-btn.down {
-  bottom: 20px;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 @keyframes popIn {
@@ -226,4 +213,92 @@ background-color: #fbdfa2;
   font-style: italic;
   font-size: 0.95rem;
   color: #5c3315;
+}
+
+@media (max-width: 768px) {
+  .isi {
+    height: auto !important;  
+    box-sizing: border-box;
+  }
+
+  .dalem {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .kontrol-gambar {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-wrapper {
+    height: auto;
+    height: auto;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+
+  .carousel-track {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    transform: none !important;
+  }
+
+  .carousel-btn {
+    display: none;
+  }
+
+  .keterangan,
+  .review,
+  .konten-teks {
+    width: 100%;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .deskripsi {
+    margin-bottom: 1rem;
+  }
+
+  .gambar {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .gambar img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .review {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fff3cd;
+    border-radius: 10px;
+  }
+
+  .kata-orang {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 12px;
+  }
+
+  .review-bubble{
+    word-wrap: break-word;
+    max-width: 100%;
+    width: fit-content;
+  }
 }
