@@ -26,7 +26,6 @@ footer i {
   margin-right: 8px;
   color: #f1e3d3;
 }
-
 .btn-warning {
     background-color: #f8edd6;
     border: none;
@@ -43,188 +42,188 @@ padding: 20px;
 border-radius: 5px;
 background-color: #fbdfa2;
 }
-  
-  .carousel-container {
-    position: relative;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px 0;
-    overflow: hidden;
-  }
-  
-  .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-  }
-  
-  .isi {
-    background-color: #fffaf0;
-    border: solid 3px #fbd38d;
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    padding: 2rem;
-    border-radius: 20px;
-    width: 100%; 
-    max-width: 900px;
-    box-sizing: border-box;
-    align-items: flex-start;
-    position: relative;
-    flex-shrink: 0; 
-  }
-  
-  .gambar img {
-    width: 300px;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
-  }
-  
-  .keterangan {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .map-link {
-    width: 180px;
-    flex-shrink: 0;
-  }
-  
-  .map-link img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    transition: transform 0.3s, filter 0.3s;
-  }
-  
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #fbd38d;
-    border: none;
-    padding: 10px 14px;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 10;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
-  }
-  
-  .carousel-btn:hover {
-    transform: scale(1.1); 
-  }
-  
-  .carousel-btn.left {
-    left: 150px;
-  }
-  
-  .carousel-btn.right {
-    right: 150px;
-  }
-  
-  .dalem {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-align: left;
-  }
-  
-  .judul {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: "DM Serif Display", serif;
-  }
-  
-  .deskripsi {
-    max-width: 1000px;
-    word-wrap: break-word;
-  }
-  
-  .info {
-    display: flex;
-    align-items: center;
-    margin: 0;
-  }
-  
-  .info p {
-    max-width: 400px;
-    word-wrap: break-word;
-  }
-  
-  .ikon {
-    margin-right: 10px;
-    color: #333;
-    min-width: 20px;
-    background-color: #fbd38d;
-    border-radius: 50%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .map-link a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .map-link a:hover {
-    text-decoration: underline;
-  }
-  
-  .map-link img:hover {
-    filter: brightness(1.1);
-    transform: scale(1.02);
-  }
-  
-  .ket-map {
-    display: flex;
-    gap: 5px;
-    flex: 1;
-  }
-  
-  .ket {
-    flex: 1;
-  }
-  
-  @media (max-width: 768px) {
-    .dalem {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-    }
-  
-    .info {
-      justify-content: center;
-    }
-  
-    .map-link {
-      text-align: center;
-      margin-top: 15px;
-    }
-  
-    .isi {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .gambar img {
-      max-width: 90%;
-    }
-  
-    .carousel-btn.left,
-    .carousel-btn.right {
-      top: 95%;
-      left: auto;
-      right: auto;
-    }
-  }
+
+.carousel-wrapper {
+  height: 100vh;        
+  overflow: hidden;     
+  position: relative; 
+  width: 100vw;        
+}
+
+.carousel-track {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.isi {
+  height: max-content;    
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #F8EDD6;
+}
+
+.dalem {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: #FBDFA2;
+  color: #452216;
+  padding: 40px;
+  border-radius: 15px;
+  border: solid 3px #452216;
+}
+
+.kontrol-gambar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.kontrol-gambar .carousel-btn {
+  position: static;
+  transform: none;
+  margin: 0.5rem 0;
+  z-index: auto;
+}
+
+.gambar img {
+  max-width: 400px;
+  max-height: 380px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.keterangan, .review {
+  flex: 1;
+}
+
+.judul {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.judul::before {
+  content: "🍲";
+  font-size: 1.5rem;
+}
+
+.konten-teks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.keterangan {
+  flex: none;
+}
+
+.review {
+  padding: 0;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.reviews{
+  margin: 0;
+}
+
+.review-bubble {
+  background-color: #fff8e1;
+  border: 2px solid #452216;
+  color: #452216;
+  font-family: 'Patrick Hand', cursive;
+  font-style: italic;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  position: relative;
+  width: fit-content;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+  animation: popIn 0.4s ease forwards;
+}
+
+.review-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff8e1 transparent transparent transparent;
+}
+
+.kata-orang{
+  margin: 0;
+}
+
+.punch {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #703a1b;
+  margin-bottom: 1rem;
+}
+
+.deskripsi{
+  max-width: 800px;
+  word-wrap: break-word;
+}
+
+.carousel-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #452216;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-btn.up {
+  top: 20px;
+}
+
+.carousel-btn.down {
+  bottom: 20px;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.gambar img {
+  transition: transform 0.3s ease;
+}
+
+.gambar img:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.bahan,
+.harga {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #5c3315;
+}

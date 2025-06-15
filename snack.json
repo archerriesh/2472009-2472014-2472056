@@ -1,77 +1,133 @@
 [
     {
-        "id" : "1",
-        "nama" : "Tape Ketan",
-        "desc" : "Tape ketan adalah makanan hasil fermentasi beras ketan (biasanya berwarna putih atau hijau) yang difermentasi dengan ragi. Rasanya manis, sedikit asam, dan mengandung sedikit alkohol. Umumnya disajikan dalam daun pisang.",
-        "pics" : "./img cemilan/Tape Ketan.jpg"
-    },
-    
-    {
-        "id" : "2",
-        "nama" : "Kerupuk Melarat",
-        "desc" : "Tape ketan adalah makanan hasil fermentasi beras ketan (biasanya berwarna putih atau hijau) yang difermentasi dengan ragi. Rasanya manis, sedikit asam, dan mengandung sedikit alkohol. Umumnya disajikan dalam daun pisang.",
-        "pics" : "./img cemilan/Kerupuk Melarat.jpg"
-    },
-
-    {
-        "id" : "3",
-        "nama" : "Intip",
-        "desc" : "Intip adalah kerak nasi yang mengering dan digoreng hingga garing. Biasanya berasal dari kerak nasi yang menempel di dasar dandang atau rice cooker, kemudian dikeringkan dan digoreng hingga renyah.",
-        "pics" : "./img cemilan/Intip.jpeg"
-    },
-
-    {
-        "id" : "4",
-        "nama" : "Kue Gapit",
-        "desc" : "Kue gapit adalah camilan tradisional berbentuk pipih dan tipis, dibuat dari campuran tepung tapioka, santan, dan bumbu. Dibakar menggunakan alat penjepit besi (gapit), sehingga dinamakan demikian. Rasanya gurih atau manis tergantung varian.",
-        "pics" : "./img cemilan/Kue Gapit.jpeg"
-    },
-
-    {
-        "id" : "5",
-        "nama" : "Kerupuk Rambak",
-        "desc" : "Kerupuk rambak terbuat dari kulit sapi atau kerbau yang dikeringkan dan kemudian digoreng. Teksturnya renyah dan gurih, sering disajikan sebagai pelengkap soto atau makanan berkuah lainnya.",
-        "pics" : "./img cemilan/Kerupuk Rambak.jpg"
-    },
-
-    {
-        "id" : "6",
-        "nama" : "Emping Melinjo",
-        "desc" : "Emping melinjo adalah kerupuk tipis yang terbuat dari biji melinjo yang ditumbuk dan dijemur, lalu digoreng. Rasanya agak pahit khas melinjo, dengan tekstur renyah.",
-        "pics" : "./img cemilan/Emping Melinjo.jpg"
-    },
-
-    {
-        "id" : "7",
-        "nama" : "Rengginang",
-        "desc" : "Rengginang adalah camilan dari beras ketan yang dibentuk bulat pipih, dikeringkan, lalu digoreng. Memiliki rasa gurih dan renyah, sering kali diberi bumbu tambahan seperti terasi atau udang.",
-        "pics" : "./img cemilan/Rengginang.jpg"
-    },
-
-    {
-        "id" : "8",
-        "nama" : "Kue Moci",
-        "desc" : "Kue moci adalah makanan manis asal Jepang yang populer di Indonesia, terutama di Sukabumi. Terbuat dari tepung ketan yang kenyal dan diberi isian kacang tanah manis, lalu dibaluri tepung.",
-        "pics" : "./img cemilan/Kue Moci.jpg"
-    },
-
-    {
-        "id" : "9",
-        "nama" : "Abon Udang",
-        "desc" : "Abon udang adalah olahan udang yang disuwir halus dan dimasak kering dengan bumbu manis-gurih. Bertekstur lembut dan cocok dijadikan lauk taburan nasi.",
-        "pics" : "./img cemilan/Abon Udang.jpeg"
-    },
-
-    {
-        "id" : "10",
-        "nama" : "Kerupuk Udang",
-        "desc" : "Kerupuk udang terbuat dari adonan tepung dan udang giling, dikeringkan dan digoreng hingga mekar. Rasanya gurih dan renyah, sering dijadikan pelengkap nasi goreng atau soto.",
-        "pics" : "./img cemilan/Kerupuk Udang.jpg"
+      "pic": "img cemilan/Tape Ketan.jpg",
+      "nama": "Tape Ketan",
+      "punch": "Manisnya alami, harumnya bikin candu!",
+      "deskripsi": "Tape ketan adalah hasil fermentasi beras ketan menggunakan ragi, menghasilkan rasa manis dengan sedikit asam dan aroma khas. Biasanya dibungkus daun pisang dan disajikan sebagai camilan tradisional.",
+      "bahan_utama": ["beras ketan", "ragi", "daun pisang"],
+      "range_harga": "Rp 5.000 – Rp 15.000",
+      "review": [
+        "Aromanya enak banget, khas banget! – Winda, 26",
+        "Manis dan sedikit beralkohol, unik rasanya. – Arman, 32",
+        "Tape-nya lembut dan segar. – Lita, 21"
+      ]
     },
     {
-        "id" : "11",
-        "nama" : "Rebon",
-        "desc" : "Rebon adalah udang kecil-kecil yang dikeringkan. Bisa digunakan sebagai bahan sambal, campuran rempeyek, atau digoreng menjadi lauk. Aromanya khas dan rasanya gurih.",
-        "pics" : "./img cemilan/Rebon.jpg"
+      "pic": "img cemilan/Kerupuk Melarat.jpg",
+      "nama": "Kerupuk Melarat",
+      "punch": "Goreng tanpa minyak, tetap gurih maksimal!",
+      "deskripsi": "Kerupuk Melarat adalah kerupuk khas Cirebon yang digoreng menggunakan pasir panas, bukan minyak. Rasanya ringan, renyah, dan biasanya disajikan dengan sambal cocol pedas.",
+      "bahan_utama": ["tepung tapioka", "air", "pewarna makanan", "garam"],
+      "range_harga": "Rp 3.000 – Rp 8.000",
+      "review": [
+        "Sensasi gurihnya beda banget! – Eko, 29",
+        "Bisa makan banyak tanpa merasa bersalah. – Sinta, 25",
+        "Sambalnya bikin makin nagih. – Reza, 23"
+      ]
+    },
+    {
+      "pic": "img cemilan/Intip.jpeg",
+      "nama": "Intip",
+      "punch": "Kerak nasi yang naik kasta!",
+      "deskripsi": "Intip adalah kerak nasi yang dikeringkan lalu digoreng hingga renyah. Camilan khas Jawa ini punya rasa gurih dan tekstur krispi yang unik.",
+      "bahan_utama": ["kerak nasi", "minyak goreng", "garam"],
+      "range_harga": "Rp 4.000 – Rp 10.000",
+      "review": [
+        "Garing dan gurih, nostalgia banget. – Tono, 40",
+        "Intipnya gede dan renyah! – Mita, 28",
+        "Favorit dari kecil sampai sekarang. – Budi, 35"
+      ]
+    },
+    {
+      "pic": "img cemilan/Kue Gapit.jpeg",
+      "nama": "Kue Gapit",
+      "punch": "Kriuknya klasik, rasanya asik!",
+      "deskripsi": "Kue Gapit adalah kue tradisional kering berbentuk pipih yang terbuat dari campuran tepung tapioka dan santan. Rasanya renyah dan gurih, cocok dijadikan camilan ringan.",
+      "bahan_utama": ["tepung tapioka", "santan", "telur", "gula"],
+      "range_harga": "Rp 6.000 – Rp 12.000",
+      "review": [
+        "Rasanya ringan dan bikin nagih. – Rina, 24",
+        "Teksturnya pas banget buat ngemil sore. – Gilang, 30",
+        "Cocok buat oleh-oleh. – Ayu, 27"
+      ]
+    },
+    {
+      "pic": "img cemilan/Emping Melinjo.jpeg",
+      "nama": "Emping Melinjo",
+      "punch": "Pahit-pahit gurih yang bikin cinta!",
+      "deskripsi": "Emping melinjo dibuat dari biji melinjo yang ditumbuk dan dijemur lalu digoreng. Rasanya gurih dengan sedikit pahit khas, cocok sebagai teman makan atau camilan.",
+      "bahan_utama": ["melinjo", "minyak goreng", "garam"],
+      "range_harga": "Rp 8.000 – Rp 18.000",
+      "review": [
+        "Pahitnya justru bikin nagih. – Taufik, 33",
+        "Kriuknya mantap, enak dimakan bareng nasi. – Nia, 26",
+        "Selalu ada di rumah. Wajib! – Rendi, 38"
+      ]
+    },
+    {
+      "pic": "img cemilan/Rengginang.jpg",
+      "nama": "Rengginang",
+      "punch": "Beras ketan yang naik level jadi cemilan super!",
+      "deskripsi": "Rengginang adalah kerupuk tebal berbahan dasar beras ketan yang dikeringkan dan digoreng. Teksturnya renyah dengan rasa gurih alami.",
+      "bahan_utama": ["beras ketan", "garam", "minyak goreng"],
+      "range_harga": "Rp 7.000 – Rp 15.000",
+      "review": [
+        "Gurihnya pas banget, apalagi yang original. – Eni, 29",
+        "Rengginang rumahan selalu jadi favorit. – Hendra, 31",
+        "Cocok buat camilan nonton TV. – Tari, 23"
+      ]
+    },
+    {
+      "pic": "img cemilan/Kue Moci.jpg",
+      "nama": "Kue Moci",
+      "punch": "Lembut di luar, kejutan manis di dalam.",
+      "deskripsi": "Kue Moci adalah camilan lembut berisi kacang tanah manis yang dilapisi tepung ketan kenyal. Umumnya ditaburi tepung agar tidak lengket dan punya rasa manis legit.",
+      "bahan_utama": ["tepung ketan", "gula", "kacang tanah", "tepung maizena"],
+      "range_harga": "Rp 10.000 – Rp 20.000",
+      "review": [
+        "Lembut dan manisnya pas. – Dimas, 24",
+        "Isian kacangnya wangi dan enak. – Lala, 27",
+        "Suka banget sama teksturnya. – Yusuf, 29"
+      ]
+    },
+    {
+      "pic": "img cemilan/Abon Udang.jpeg",
+      "nama": "Abon Udang",
+      "punch": "Renyah, manis, dan gurih—sekali coba ketagihan!",
+      "deskripsi": "Abon udang adalah abon yang dibuat dari udang segar dengan rasa manis dan gurih. Cocok disantap dengan nasi hangat atau sebagai taburan.",
+      "bahan_utama": ["udang", "gula merah", "bawang putih", "minyak"],
+      "range_harga": "Rp 12.000 – Rp 25.000",
+      "review": [
+        "Paling enak dimakan sama nasi putih hangat! – Hani, 28",
+        "Rasa udangnya kuat tapi nggak amis. – Aldi, 35",
+        "Bikin nasi jadi nggak ngebosenin. – Yuli, 22"
+      ]
+    },
+    {
+      "pic": "img cemilan/Kerupuk Udang.jpg",
+      "nama": "Kerupuk Udang",
+      "punch": "Klasik yang nggak pernah gagal.",
+      "deskripsi": "Kerupuk udang terbuat dari tepung dan udang yang digiling halus. Rasanya gurih dan renyah, cocok untuk segala hidangan.",
+      "bahan_utama": ["tepung tapioka", "udang", "garam", "penyedap"],
+      "range_harga": "Rp 5.000 – Rp 12.000",
+      "review": [
+        "Aroma udangnya kuat dan gurih banget. – Reno, 30",
+        "Crispy maksimal! – Devi, 24",
+        "Favorit keluarga dari dulu. – Arman, 37"
+      ]
+    },
+    {
+      "pic": "img cemilan/Rebon.jpg",
+      "nama": "Rebon",
+      "punch": "Kecil tapi rasa juara!",
+      "deskripsi": "Rebon adalah udang kecil yang dikeringkan dan sering digunakan sebagai bahan sambal atau campuran tumisan. Rasanya asin gurih dan sangat khas.",
+      "bahan_utama": ["udang rebon", "garam", "air", "minyak"],
+      "range_harga": "Rp 7.000 – Rp 18.000",
+      "review": [
+        "Enak banget buat campuran sambal! – Siska, 27",
+        "Wangi dan rasanya khas. – Riko, 33",
+        "Selalu ada di dapur. – Nana, 31"
+      ]
     }
-]
+  ]
+  
