@@ -26,13 +26,6 @@ fetch("minuman.json")
       htmlContent += `
         <div class="isi">
             <div class="dalem">
-                <div class="kontrol-gambar">
-                    <button class="carousel-btn up"><i class="fas fa-chevron-up"></i></button>
-                    <div class="gambar">
-                    <img src="${item.pic}" alt="${item.nama}" />
-                    </div>
-                    <button class="carousel-btn down"><i class="fas fa-chevron-down"></i></button>
-                </div>
                 <div class="konten-teks">
                     <div class="keterangan">
                     <h2 class="judul">${item.nama}</h2>
@@ -51,6 +44,13 @@ fetch("minuman.json")
                         `).join("")}
                     </div>
                     </div>
+                </div>
+                <div class="kontrol-gambar">
+                    <button class="carousel-btn up"><i class="fas fa-chevron-up"></i></button>
+                    <div class="gambar">
+                    <img src="${item.pic}" alt="${item.nama}" />
+                    </div>
+                    <button class="carousel-btn down"><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
         </div>

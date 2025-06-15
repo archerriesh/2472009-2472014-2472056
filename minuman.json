@@ -1,6 +1,6 @@
 [
     {
-        "pic": "durian.jpeg",
+        "pic": "homes/durian.jpeg",
         "nama": "Es Duren Cirebon",
         "punch": "Lembutnya duren, segarnya sampai hati!",
         "deskripsi": "Es Duren khas Cirebon adalah jawaban buat pencinta durian sejati. Daging buah durian disajikan di atas es serut, disiram susu kental manis dan sedikit sirup, menciptakan sensasi creamy dan manis yang bikin meleleh. Aromanya kuat, tapi rasa manis dan legitnya bikin semua pecinta durian bahagia. Cocok buat dessert sore hari yang istimewa.",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "pic": "susu murni.jpg",
+        "pic": "homes/susu murni.jpg",
         "nama": "Susu Murni Cirebon",
         "punch": "Langsung dari peternakan, hangatnya sampai ke dada.",
         "deskripsi": "Susu murni di Cirebon biasanya disajikan hangat atau dingin dengan berbagai varian rasa, seperti cokelat, jahe, atau madu. Susunya langsung dari peternakan lokal, segar dan tanpa campuran. Rasanya creamy, gurih, dan menenangkan. Minuman ini nggak cuma enak, tapi juga menyehatkan—cocok buat sarapan atau penutup hari.",
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "pic": "estape.webp",
+        "pic": "homes/estape.webp",
         "nama": "Es Tape",
         "punch": "Manisnya fermentasi, segarnya orisinil!",
         "deskripsi": "Es Tape adalah minuman segar khas Cirebon dengan bahan utama tape singkong yang difermentasi sempurna. Tape dipadukan dengan sirup merah atau susu, lalu ditambah es batu. Rasanya manis-asam, menyegarkan, dan bikin nagih. Ini minuman klasik yang masih digemari banyak orang karena keunikan rasanya.",
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "pic": "es cuwing.jpg",
+        "pic": "homes/es cuwing.jpg",
         "nama": "Es Cuwing",
         "punch": "Asam segar yang nyentil, bikin nagih tiap teguk!",
         "deskripsi": "Es Cuwing adalah minuman khas Cirebon yang menyegarkan dan punya rasa unik. Terbuat dari buah ceremai yang memiliki perpaduan rasa asam dan sedikit manis, minuman ini cocok banget buat pelepas dahaga di siang hari. Disajikan dingin dengan sedikit gula dan es batu, rasanya langsung membangkitkan semangat dan nostalgia masa kecil.",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "pic": "sirup tjampolay copy.jpg",
+        "pic": "homes/sirup tjampolay copy.jpg",
         "nama": "Sirup Tjampolay",
         "punch": "Merah, legit, dan menyegarkan jiwa!",
         "deskripsi": "Dawet Ireng Cirebon punya tampilan unik berwarna warni menyesuaikan rasanya. Disajikan dengan es seut dan air, sudah enak-!",
