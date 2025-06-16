@@ -155,7 +155,6 @@ a{
 
 .carousel-container {
   overflow-x: hidden;
-  overflow-y: scroll;
   max-height: 100vh; 
   display: flex;
   align-items: center;
@@ -163,14 +162,17 @@ a{
   flex-direction: column;
   gap: 2rem;
   padding: 1rem;
+  margin: auto;
 }
 
 .carousel-track {
   display: flex;
+  overflow-x: auto;
   flex-direction: column;
   gap: 2rem;
   transition: transform 0.5s ease-in-out;
   width: 100%;
+  margin: auto;
 }
 
 .carousel-item {
@@ -186,6 +188,7 @@ a{
   padding: 1rem;
   background: #fff;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: auto;
 }
 
 .carousel-item img {
@@ -202,7 +205,9 @@ a{
   flex-direction: row;
   gap: 1.5rem;
   padding: 2rem;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 20px;
   width: 100%; 
   max-width: 900px;
@@ -246,6 +251,7 @@ a{
   justify-content: center;
   gap: 20px;
   text-align: left;
+  margin: auto;
 }
 
 h2{
